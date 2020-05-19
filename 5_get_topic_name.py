@@ -32,10 +32,10 @@ def question_info_get(qid):
 
     """
     headers = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36",
-    "Connection": "keep-alive",
-    "Accept": "text/html,application/json,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-    "Accept-Language": "zh-CN,zh;q=0.8"}
+    "User-Agent": "",
+    "Connection": "",
+    "Accept": "",
+    "Accept-Language": ""}
     q_url = f'https://www.zhihu.com/question/{qid}'
     
 #    print(q_url)
